@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <section class="game">
+        <div class="title">Rock Paper Scissors</div>
+
+        <div class="score">
+            <div class="player_score">
+                <h2>Player</h2>
+                <p class="p-count count">0</p>
+            </div>
+
+            <div class="tie_score">
+                <h2>Ties</h2>
+                <p class="t-count count">0</p>
+            </div>
+
+            <div class="cpu_score">
+                <h2>Computer</h2>
+                <p class="c-count count">0</p>
+            </div>
+        </div>
+
+        <div class="move">Your throw</div>
+        <div class="movesleft"></div>
+
+        <div class="options">
+            <img src="images/rock.PNG" alt="Rock" class="choice rock">
+            <img src="images/paper.PNG" alt="Paper" class="choice paper">
+            <img src="images/scissors.PNG" alt="Scissors" class="choice scissors">
+        </div>
+
+        <div class="cpu-display">
+            <h3>Computer throws...</h3>
+            <img src="images/question-mark.PNG" alt="cpu choice" class="cpu-choice">
+        </div>
+
+        <div class="result"></div>
+        <button class="reload"></button>
+    </section>
+
+    <div class="game-over">
+        <div class="game-over-content">
+            <h2>Game Over!</h2>
+            <p class="final-score"></p>
+            <button class="restart-btn">Restart Game</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
